@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+RewriteBase /rally_std/
+RewriteRule ^(services|front)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&id=$4 [L,QSA]
+RewriteRule ^(services|front)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3 [L,QSA]
+RewriteRule ^(services|front)/(.*)$ index.php?onpage=$1&url=$2&a=index [L,QSA]
+RewriteRule ^(services|front)$ index.php?onpage=$1&url=$home&a=index [L,QSA]
+#back
+RewriteRule ^itoffside-admin$ index.php?onpage=back&url=home&a=index [L,QSA]
+
+</IfModule>
