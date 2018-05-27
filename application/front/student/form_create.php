@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if($rows > 0){
         echo "<script>";
         echo "alert('ขออภัย..! คุณมีข้อมูลชุมนุมอยู่ในระบบแล้ว ไม่สามารถเลือกได้อีก');";
-        echo "window.location='$baseUrl/front/student/create_rally'";
+        echo "window.location='$baseUrl/front/student'";
         echo "</script>";
     }
 

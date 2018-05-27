@@ -32,7 +32,7 @@ Licence URI: http://www.os-templates.com/template-terms
               <form class="group" role="form" action="<?php echo $baseUrl; ?>/front/student/form_login/1" method="post">
                 <fieldset>
                   <legend>Newsletter:</legend>
-                  <input type="number" value="" placeholder="รหัสรักเรียน&hellip;" id="std_id" name="std_id">
+                  <input type="number" value="" placeholder="รหัสนักเรียน&hellip;" id="std_id" name="std_id">
                   <button class="fa fa-sign-in" type="submit" title="Submit"><em>Submit</em></button>
                 </fieldset>
               </form>
